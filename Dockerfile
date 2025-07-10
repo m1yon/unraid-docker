@@ -25,7 +25,6 @@ RUN apt-get update && apt-get install -y \
     pkg-config \
     libfontconfig1-dev \
     lazygit \
-    lazydocker \
     && rm -rf /var/lib/apt/lists/*
 
 
