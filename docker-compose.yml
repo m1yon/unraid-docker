@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-  unraid-docker:
+  dev-environment:
     build: .
-    container_name: unraid-docker
+    container_name: dev-environment
     tty: true
     stdin_open: true
