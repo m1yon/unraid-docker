@@ -5,3 +5,5 @@ services:
     container_name: dev-environment
     tty: true
     stdin_open: true
+    volumes:
+      - /mnt/user:/unraid

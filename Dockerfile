@@ -35,4 +35,5 @@ RUN cargo install --locked yazi-fm yazi-cli
 
 # This command does nothing but keeps the container running in the background.
 # This allows you to 'docker exec' into it at any time.
+WORKDIR /unraid
 CMD ["tail", "-f", "/dev/null"]
