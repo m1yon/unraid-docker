@@ -24,7 +24,6 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     pkg-config \
     libfontconfig1-dev \
-    lazygit \
     && rm -rf /var/lib/apt/lists/*
 
 
