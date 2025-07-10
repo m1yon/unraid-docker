@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  unraid-docker:
+    build: .
+    container_name: unraid-docker
+    tty: true
+    stdin_open: true
